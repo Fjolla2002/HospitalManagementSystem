@@ -52,6 +52,7 @@
             this.ReceptionIcon = new System.Windows.Forms.PictureBox();
             this.bindingSource1 = new System.Windows.Forms.BindingSource(this.components);
             this.MainPanel = new System.Windows.Forms.Panel();
+            this.startServer = new System.Windows.Forms.Button();
             this.DoctorsPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.DoctorIcon)).BeginInit();
             this.MenuPanel.SuspendLayout();
@@ -164,6 +165,7 @@
             this.Logout.Size = new System.Drawing.Size(54, 17);
             this.Logout.TabIndex = 10;
             this.Logout.Text = "Logout";
+            this.Logout.Click += new System.EventHandler(this.Logout_Click);
             // 
             // Doctors
             // 
@@ -199,6 +201,7 @@
             this.LogoutIcon.Size = new System.Drawing.Size(30, 30);
             this.LogoutIcon.TabIndex = 7;
             this.LogoutIcon.TabStop = false;
+            this.LogoutIcon.Click += new System.EventHandler(this.LogoutIcon_Click);
             // 
             // AddDoctors
             // 
@@ -252,11 +255,11 @@
             this.Title.AutoSize = true;
             this.Title.Font = new System.Drawing.Font("Constantia", 14.25F, System.Drawing.FontStyle.Bold);
             this.Title.ForeColor = System.Drawing.Color.SteelBlue;
-            this.Title.Location = new System.Drawing.Point(285, 37);
+            this.Title.Location = new System.Drawing.Point(375, 23);
             this.Title.Name = "Title";
-            this.Title.Size = new System.Drawing.Size(278, 23);
+            this.Title.Size = new System.Drawing.Size(109, 23);
             this.Title.TabIndex = 2;
-            this.Title.Text = "Hospital Management System";
+            this.Title.Text = "Dashboard";
             // 
             // TotalReceptionists
             // 
@@ -306,6 +309,7 @@
             // MainPanel
             // 
             this.MainPanel.BackColor = System.Drawing.SystemColors.Control;
+            this.MainPanel.Controls.Add(this.startServer);
             this.MainPanel.Controls.Add(this.DoctorsPanel);
             this.MainPanel.Controls.Add(this.ReceptionistsPanel);
             this.MainPanel.Controls.Add(this.CloseIcon);
@@ -316,6 +320,17 @@
             this.MainPanel.Name = "MainPanel";
             this.MainPanel.Size = new System.Drawing.Size(708, 430);
             this.MainPanel.TabIndex = 4;
+            // 
+            // startServer
+            // 
+            this.startServer.BackColor = System.Drawing.Color.SteelBlue;
+            this.startServer.Location = new System.Drawing.Point(573, 359);
+            this.startServer.Name = "startServer";
+            this.startServer.Size = new System.Drawing.Size(96, 53);
+            this.startServer.TabIndex = 6;
+            this.startServer.Text = "Start Server";
+            this.startServer.UseVisualStyleBackColor = false;
+            this.startServer.Click += new System.EventHandler(this.startServer_Click);
             // 
             // AdminDashboard
             // 
@@ -372,5 +387,6 @@
         private System.Windows.Forms.PictureBox ReceptionIcon;
         private System.Windows.Forms.BindingSource bindingSource1;
         private System.Windows.Forms.Panel MainPanel;
+        private System.Windows.Forms.Button startServer;
     }
 }

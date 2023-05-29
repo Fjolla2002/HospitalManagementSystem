@@ -38,3 +38,16 @@ C:\Users\HP\source\repos\ClinicManagementSystem\ClinicManagementSystem\bin\Debug
 C:\Users\HP\source\repos\ClinicManagementSystem\ClinicManagementSystem\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 C:\Users\HP\source\repos\ClinicManagementSystem\ClinicManagementSystem\bin\Debug\System.Threading.Tasks.Extensions.xml
 C:\Users\HP\source\repos\ClinicManagementSystem\ClinicManagementSystem\obj\Debug\ClinicManagementSystem.csproj.CopyComplete
+C:\Users\HP\source\repos\ClinicManagementSystem\ClinicManagementSystem\obj\Debug\ClinicManagementSystem.ReceptionistPatients.resources
+C:\Users\HP\source\repos\ClinicManagementSystem\ClinicManagementSystem\obj\Debug\ClinicManagementSystem.ReceptionistDoctors.resources
+C:\Users\HP\source\repos\ClinicManagementSystem\ClinicManagementSystem\obj\Debug\ClinicManagementSystem.ReceptionistAppointments.resources
+C:\Users\HP\source\repos\ClinicManagementSystem\ClinicManagementSystem\obj\Debug\ClinicManagementSystem.ReceptionistDashboard.resources
+C:\Users\HP\source\repos\ClinicManagementSystem\ClinicManagementSystem\obj\Debug\ClinicManagementSystem.DoctorsDashboard.resources
+C:\Users\HP\source\repos\ClinicManagementSystem\ClinicManagementSystem\obj\Debug\ClinicManagementSystem.DoctorsAppointments.resources
+C:\Users\HP\source\repos\ClinicManagementSystem\ClinicManagementSystem\obj\Debug\ClinicManagementSystem.DoctorsPrescriptions.resources
+C:\Users\HP\source\repos\ClinicManagementSystem\ClinicManagementSystem\obj\Debug\ClinicManagementSystem.ServerForm.resources
+C:\Users\HP\source\repos\ClinicManagementSystem\ClinicManagementSystem\obj\Debug\ClinicManagementSystem.ClientForm.resources
+C:\Users\HP\source\repos\ClinicManagementSystem\ClinicManagementSystem\bin\Debug\System.Text.Json.dll
+C:\Users\HP\source\repos\ClinicManagementSystem\ClinicManagementSystem\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\HP\source\repos\ClinicManagementSystem\ClinicManagementSystem\bin\Debug\System.ValueTuple.dll
+C:\Users\HP\source\repos\ClinicManagementSystem\ClinicManagementSystem\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll

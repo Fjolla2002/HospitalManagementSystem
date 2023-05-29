@@ -10,8 +10,6 @@ using System.Windows.Forms;
 using System.Data.SqlClient;
 
 
-
-
 namespace ClinicManagementSystem
 {
     public partial class AdminDoctors : Form
@@ -348,6 +346,24 @@ namespace ClinicManagementSystem
         private void EmailtxtBox_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void LogoutIcon_Click(object sender, EventArgs e)
+        {
+            // Trigger the server form close event in AdminDashboard
+            AdminDashboard adminDashboard = Application.OpenForms.OfType<AdminDashboard>().FirstOrDefault();
+            Login li = new Login();
+            li.Show();
+            this.Hide();
+        }
+
+        private void Logout_Click(object sender, EventArgs e)
+        {
+            // Trigger the server form close event in AdminDashboard
+            AdminDashboard adminDashboard = Application.OpenForms.OfType<AdminDashboard>().FirstOrDefault();
+            Login li = new Login();
+            li.Show();
+            this.Hide();
         }
     }
 }

@@ -8,16 +8,19 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SqlClient;
+using System.Runtime.InteropServices;
 
 namespace ClinicManagementSystem
 {
     public partial class AdminDashboard : Form
     {
+        private ServerForm sf;
         public AdminDashboard()
         {
             InitializeComponent();
             CountReceptionists();
             CountDoctors();
+            
         }
 
         SqlConnection con = new SqlConnection(@"Data Source=DESKTOP-413VNFC\SQLEXPRESS;Initial Catalog=HMS;Integrated Security=True");
@@ -87,6 +90,36 @@ namespace ClinicManagementSystem
             AdminDoctors adoc = new AdminDoctors();
             adoc.Show();
             this.Hide();
+        }
+
+        private void LogoutIcon_Click(object sender, EventArgs e)
+        {
+            Login li = new Login();
+            li.Show();
+            this.Hide();
+            sf.Close();
+        }
+
+        private void Logout_Click(object sender, EventArgs e)
+        {
+            Login li = new Login();
+            li.Show();
+            this.Hide();
+            sf.Close();
+        }
+
+        private void startServer_Click(object sender, EventArgs e)
+        {
+           sf = new ServerForm();
+           sf.Show();
+           sf.FormClosed += ServerFormClosedHandler;
+
+        }
+
+        public void ServerFormClosedHandler(object sender, EventArgs e)
+        {
+            sf.Dispose(); // Dispose the ServerForm instance
+            sf = null; // Set the reference to null
         }
     }
 }

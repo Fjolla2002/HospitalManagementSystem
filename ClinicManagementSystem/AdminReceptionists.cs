@@ -324,5 +324,25 @@ namespace ClinicManagementSystem
                 }
             }
         }
+
+        private void LogoutIcon_Click(object sender, EventArgs e)
+        {
+            // Trigger the server form close event in AdminDashboard
+            AdminDashboard adminDashboard = Application.OpenForms.OfType<AdminDashboard>().FirstOrDefault();
+
+            Login li = new Login();
+            li.Show();
+            this.Hide();
+            
+        }
+
+        private void Logout_Click(object sender, EventArgs e)
+        {
+            // Trigger the server form close event in AdminDashboard
+            AdminDashboard adminDashboard = Application.OpenForms.OfType<AdminDashboard>().FirstOrDefault();
+            Login li = new Login();
+            li.Show();
+            this.Hide();
+        }
     }
 }

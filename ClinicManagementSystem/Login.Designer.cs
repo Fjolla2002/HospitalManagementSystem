@@ -73,11 +73,11 @@
             this.Title.AutoSize = true;
             this.Title.Font = new System.Drawing.Font("Constantia", 14F);
             this.Title.ForeColor = System.Drawing.Color.White;
-            this.Title.Location = new System.Drawing.Point(11, 27);
+            this.Title.Location = new System.Drawing.Point(26, 24);
             this.Title.Name = "Title";
-            this.Title.Size = new System.Drawing.Size(249, 23);
+            this.Title.Size = new System.Drawing.Size(234, 23);
             this.Title.TabIndex = 1;
-            this.Title.Text = "Hopital Management System";
+            this.Title.Text = "Clinic Management System";
             // 
             // Reset
             // 

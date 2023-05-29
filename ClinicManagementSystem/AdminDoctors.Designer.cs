@@ -87,6 +87,7 @@
             this.Logout.Size = new System.Drawing.Size(54, 17);
             this.Logout.TabIndex = 10;
             this.Logout.Text = "Logout";
+            this.Logout.Click += new System.EventHandler(this.Logout_Click);
             // 
             // AddReceptionistIcon
             // 
@@ -391,11 +392,11 @@
             this.Title.AutoSize = true;
             this.Title.Font = new System.Drawing.Font("Constantia", 14.25F, System.Drawing.FontStyle.Bold);
             this.Title.ForeColor = System.Drawing.Color.SteelBlue;
-            this.Title.Location = new System.Drawing.Point(285, 37);
+            this.Title.Location = new System.Drawing.Point(378, 23);
             this.Title.Name = "Title";
-            this.Title.Size = new System.Drawing.Size(278, 23);
+            this.Title.Size = new System.Drawing.Size(80, 23);
             this.Title.TabIndex = 2;
-            this.Title.Text = "Hospital Management System";
+            this.Title.Text = "Doctors";
             // 
             // MenuPanel
             // 
@@ -437,6 +438,7 @@
             this.LogoutIcon.Size = new System.Drawing.Size(30, 30);
             this.LogoutIcon.TabIndex = 7;
             this.LogoutIcon.TabStop = false;
+            this.LogoutIcon.Click += new System.EventHandler(this.LogoutIcon_Click);
             // 
             // AddDoctors
             // 
